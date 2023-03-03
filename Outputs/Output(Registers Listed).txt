@@ -1,0 +1,232 @@
+Loading:sharkosprog1.txt
+
+211 LDI 100
+Registers:
+ACC= 100
+PSIAR= 211
+SAR= 210
+SDR= 100
+TMPR= 0
++++++++++++++++++++++
+
+212 STR 200
+Registers:
+ACC= 100
+PSIAR= 212
+SAR= 200
+SDR= 100
+TMPR= 200
++++++++++++++++++++++
+
+213 LDI 50
+Registers:
+ACC= 50
+PSIAR= 213
+SAR= 212
+SDR= 50
+TMPR= 200
++++++++++++++++++++++
+
+214 STR 201
+Registers:
+ACC= 50
+PSIAR= 214
+SAR= 201
+SDR= 50
+TMPR= 201
++++++++++++++++++++++
+
+215 LDA 200
+Registers:
+ACC= 100
+PSIAR= 215
+SAR= 200
+SDR= 100
+TMPR= 200
++++++++++++++++++++++
+
+216 SUB 201
+Registers:
+ACC= 50
+PSIAR= 216
+SAR= 201
+SDR= 50
+TMPR= 50
++++++++++++++++++++++
+
+217 CBR 218
+Registers:
+ACC= 50
+PSIAR= 217
+SAR= 201
+SDR= 50
+TMPR= 50
++++++++++++++++++++++
+
+215 SUB 201
+Registers:
+ACC= 50
+PSIAR= 215
+SAR= 217
+SDR= 215
+TMPR= 50
++++++++++++++++++++++
+
+216 SUB 201
+Registers:
+ACC= 0
+PSIAR= 216
+SAR= 201
+SDR= 50
+TMPR= 50
++++++++++++++++++++++
+
+218 BRH 215
+Registers:
+ACC= 0
+PSIAR= 218
+SAR= 216
+SDR= 218
+TMPR= 50
++++++++++++++++++++++
+
+219 STR 203
+Registers:
+ACC= 0
+PSIAR= 219
+SAR= 203
+SDR= 0
+TMPR= 203
++++++++++++++++++++++
+
+Job Completed.
+Registers:
+ACC= 0
+PSIAR= 219
+SAR= 203
+SDR= 0
+TMPR= 203
++++++++++++++++++++++
+Memory:
+[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 100, 50, null, 0, null, null, null, null, null, null, LDI 100, STR 200, LDI 50, STR 201, LDA 200, SUB 201, CBR 218, BRH 215, STR 203, END, HALT, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
++++++++++++++++++++++
+
+220 HALT
+Registers:
+ACC= 0
+PSIAR= 220
+SAR= 203
+SDR= 0
+TMPR= 0
++++++++++++++++++++++
+
+Loading:sharkosprog2.txt
+
+222 LDI 40
+Registers:
+ACC= 40
+PSIAR= 222
+SAR= 221
+SDR= 40
+TMPR= 0
++++++++++++++++++++++
+
+223 STR 100
+Registers:
+ACC= 40
+PSIAR= 223
+SAR= 100
+SDR= 40
+TMPR= 100
++++++++++++++++++++++
+
+224 LDI 50
+Registers:
+ACC= 50
+PSIAR= 224
+SAR= 223
+SDR= 50
+TMPR= 100
++++++++++++++++++++++
+
+225 STR 101
+Registers:
+ACC= 50
+PSIAR= 225
+SAR= 101
+SDR= 50
+TMPR= 101
++++++++++++++++++++++
+
+226 LDI 60
+Registers:
+ACC= 60
+PSIAR= 226
+SAR= 225
+SDR= 60
+TMPR= 101
++++++++++++++++++++++
+
+227 STR 102
+Registers:
+ACC= 60
+PSIAR= 227
+SAR= 102
+SDR= 60
+TMPR= 102
++++++++++++++++++++++
+
+228 LDI 0
+Registers:
+ACC= 0
+PSIAR= 228
+SAR= 227
+SDR= 0
+TMPR= 102
++++++++++++++++++++++
+
+229 ADD 100
+Registers:
+ACC= 40
+PSIAR= 229
+SAR= 100
+SDR= 40
+TMPR= 40
++++++++++++++++++++++
+
+230 ADD 101
+Registers:
+ACC= 90
+PSIAR= 230
+SAR= 101
+SDR= 50
+TMPR= 50
++++++++++++++++++++++
+
+231 ADD 102
+Registers:
+ACC= 150
+PSIAR= 231
+SAR= 102
+SDR= 60
+TMPR= 60
++++++++++++++++++++++
+
+232 STR 103
+Registers:
+ACC= 150
+PSIAR= 232
+SAR= 103
+SDR= 150
+TMPR= 103
++++++++++++++++++++++
+
+232 HALT 0
+Registers:
+ACC= 150
+PSIAR= 232
+SAR= 103
+SDR= 150
+TMPR= 103
++++++++++++++++++++++
+
